@@ -1,12 +1,4 @@
-# ============================================================
-# Week 4 & 5 - Data Structures in Python
-# All Practice Tasks + Weekly Challenges
-# ============================================================
-
-
-# ============================================================
 # SECTION 3.1 - LISTS PRACTICE TASKS
-# ============================================================
 
 # Task 1: Create a list of favorite movies and print first three
 print("--- List Task 1 ---")
@@ -30,11 +22,8 @@ for i in range(len(original) - 1, -1, -1):
     reversed_list.append(original[i])
 print("Reversed list:", reversed_list)
 
-
-# ============================================================
 # SECTION 3.2 - TUPLES PRACTICE TASKS
-# ============================================================
-
+ 
 # Task 1: Create a tuple with five numbers, find max and min
 print("\n--- Tuple Task 1 ---")
 nums_tuple = (15, 42, 7, 93, 28)
@@ -59,11 +48,9 @@ print("Before swap:", values)
 values = (values[1], values[0])
 print("After swap:", values)
 
-
-# ============================================================
+ 
 # SECTION 3.3 - DICTIONARIES PRACTICE TASKS
-# ============================================================
-
+ 
 # Task 1: Create a dictionary to store student names and grades
 print("\n--- Dictionary Task 1 ---")
 grades = {
@@ -90,10 +77,8 @@ merged = {**dict1, **dict2}
 print("Merged dictionary:", merged)
 
 
-# ============================================================
-# SECTION 3.4 - SETS PRACTICE TASKS
-# ============================================================
-
+ # SECTION 3.4 - SETS PRACTICE TASKS
+ 
 # Task 1: Remove duplicates from a list using a set
 print("\n--- Set Task 1 ---")
 with_duplicates = [1, 2, 2, 3, 4, 4, 5, 1]
@@ -119,9 +104,8 @@ big_set = {1, 2, 3, 4, 5}
 print("Is", small_set, "a subset of", big_set, "?", small_set.issubset(big_set))
 
 
-# ============================================================
 # WEEKLY CHALLENGES
-# ============================================================
+ 
 
 # Challenge 1: Find max and min in a list
 print("\n--- Challenge 1: Max and Min ---")
